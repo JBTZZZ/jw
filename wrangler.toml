@@ -3,10 +3,6 @@ main = "_worker.js"
 compatibility_date = "2026-01-20"
 keep_vars = true
 
-[assets]
-directory = "./"
-binding = "ASSETS"
-
 [[kv_namespaces]]
-binding = "c"
-id = "30cc4009f69544af82e1394dad6f2141"
+binding = "KV"			#KV绑定名默认不可修改
+id = ""				#KV数据库id
